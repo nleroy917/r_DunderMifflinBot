@@ -224,9 +224,9 @@ print("Authentication Success!")
 
 # authenticate reddit app
 print("Authenticating Reddit API...")
-reddit = praw.Reddit(client_id="VO3nsWUK9UBV8g",
-                     client_secret = "nyoXYhUFnqo7Axo2dkmnVxywga0",
-                     user_agent = "pawsibility")
+reddit = praw.Reddit(client_id="#############",
+                     client_secret = "############################",
+                     user_agent = "#############")
 
 print("Authentication Success!")
 
