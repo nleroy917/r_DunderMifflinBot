@@ -22,6 +22,9 @@ YYYY/MM/DD-HR-MIN-SEC. The photo is saved to a folder in the same directory as t
 SLEEP
 Once posted, to avoid hitting twitter and reddit's API rate-limit, and to avoid spamming, the program will "cool-down" and sleep for a set time in the script (wait_time). It will give updates every five minutes indicating the time until next post.
 
+FOLLOW SCRIPT
+About every 12 hours, the bot will search twitter for the latest tweets that contain specific strings set by the user. (Ex. Dunder Mifflin, The Office, Schrute, etc). It will parse through a specific number of tweets and follow each user (default 100)
+The follow script is highly rate limited so as not to exceed the twitter API regulations and receive a ban/suspension.
 
 	Version History:
 :--------------------------------------------------------------:
