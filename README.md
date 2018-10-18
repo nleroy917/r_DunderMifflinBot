@@ -19,10 +19,10 @@ FILE PROCESSING, NAMING, AND POSTING:
 Once the picture is found to be unique, the program assigns it a unique name based on the time of retrieval with the format:
 YYYY/MM/DD-HR-MIN-SEC. The photo is saved to a folder in the same directory as the script being run. The log is updated with the pictures unique identifier assigned by reddit, and the program proceeds to post the photo to @rDunderMifflin's timeline with the title of the photo as the text associated with the post.
 
-SLEEP
+SLEEP:
 Once posted, to avoid hitting twitter and reddit's API rate-limit, and to avoid spamming, the program will "cool-down" and sleep for a set time in the script (wait_time). It will give updates every five minutes indicating the time until next post.
 
-FOLLOW SCRIPT
+FOLLOW SCRIPT:
 About every 12 hours, the bot will search twitter for the latest tweets that contain specific strings set by the user. (Ex. Dunder Mifflin, The Office, Schrute, etc). It will parse through a specific number of tweets and follow each user (default 100)
 The follow script is highly rate limited so as not to exceed the twitter API regulations and receive a ban/suspension.
 
