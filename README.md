@@ -1,9 +1,9 @@
      r_DunderMifflin_Bot
-:------------------------------:
+:--------------------------:
 Author: Nathan LeRoy
 Creation Date: June 21st, 2018
 Latest Version: 1.0.1
-:------------------------------:
+:--------------------------:
 
 OVERVIEW:
 This python program is a very simple script that will retrieve the hot posts from http://reddit/r/DunerMifflin.com and post them to the twitter account @rDunderMifflin with a set frequency. After a given number of posts, it will refresh the hot queue and re-retrieve to obtain the latest posts.
@@ -28,6 +28,25 @@ The follow script is highly rate limited so as not to exceed the twitter API reg
 
 	Version History:
 :--------------------------------------------------------------:
+Version 1.4.0
+	- Now includes support for gif retrieving and posting!
+	- Added file naming conventions and conditions to catch gifs and appropriately retreive them
+	- Also updated some file naming conventions (see get file name)
+	- Added support to identify and skip video posts. 
+
+Version: 1.3.3
+	- Added color to some print statements to differnetiate from key processes and procedural
+	  methods
+
+Version: 1.3.2
+	- Fixed issue where bot would scipt unfollow script if the follow script was enabled
+	- Added a testing mode. If testing mode is set to True, then the bot will not post or retrieve
+	  picutures. It will only simulate the act of doing so
+
+Version: 1.3.1
+	- Removed 'The Office' search tag as too many Trump supporters were following the bot,
+	and the timeline/following of the bot was becoming very politically charged
+
 Version: 1.3.0
 	- Now includes follow mode
 	- Will follow users of tweets from a pre-defined search tag
