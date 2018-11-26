@@ -322,9 +322,9 @@ print(Fore.GREEN + "Authentication Success!")
 
 # authenticate reddit app
 print(Fore.GREEN + "Authenticating Reddit API...")
-reddit = praw.Reddit(client_id="VO3nsWUK9UBV8g",
-                     client_secret = "nyoXYhUFnqo7Axo2dkmnVxywga0",
-                     user_agent = "pawsibility")
+reddit = praw.Reddit(client_id="###############",
+                     client_secret = "################",
+                     user_agent = "################)
 
 print(Fore.GREEN + "Authentication Success!\n")
 
