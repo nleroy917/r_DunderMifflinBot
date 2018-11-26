@@ -2,7 +2,7 @@
 :--------------------------:
 Author: Nathan LeRoy
 Creation Date: June 21st, 2018
-Latest Version: 1.0.1
+Latest Version: 1.4.0
 :--------------------------:
 
 OVERVIEW:
