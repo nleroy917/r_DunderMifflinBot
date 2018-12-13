@@ -1,4 +1,4 @@
-#r_DunderMifflin_Bot
+# r_DunderMifflin_Bot
 :--------------------------:
 Author: Nathan LeRoy
 Creation Date: June 21st, 2018
@@ -6,7 +6,7 @@ Latest Version: 1.4.0
 :--------------------------:
 
 OVERVIEW:
-This python program is a very simple script that will retrieve the hot posts from http://reddit/r/DunerMifflin.com and post them to the twitter account @rDunderMifflin with a set frequency. After a given number of posts, it will refresh the hot queue and re-retrieve to obtain the latest posts.
+This python program is a script that will retrieve the hot posts from https://www.reddit.com/r/DunderMifflin/ and post them to the twitter account @rDunderMifflin with a calculated frequency. After a given number of posts, it will refresh the hot queue and re-retrieve to obtain the latest posts.
 
 RETRIEVING:
 The program retrieves an iterable list of submissions from the subreddit's hot page, checks to make sure the post is a picture and not a pinned post by the subreddit's moderators, then extracts the unique picture identifer from the url. Typically, it is a random alpha-numeric string ending in ".png" or ".jpg". Each retrieved file is time-stamped and displayed to the command line.
