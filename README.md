@@ -1,8 +1,8 @@
 r_DunderMifflin_Bot
 ======
-*Author: Nathan LeRoy*
-*Creation Date: June 21st, 2018*
-*Latest Version: 1.4.0*
+*Author: Nathan LeRoy*  
+*Creation Date: June 21st, 2018*  
+*Latest Version: 1.4.2*  
 
 
 ### OVERVIEW:
@@ -30,16 +30,16 @@ The follow script is highly rate limited so as not to exceed the twitter API reg
 Version History:
 ------
 *Version 1.4.2*
-* Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
-* After each post, the bot will calculate how much time is needed in between posts.
-* The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
+  * Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
+  * After each post, the bot will calculate how much time is needed in between posts.
+  * The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
 
 *Version 1.4.1*
-..* You can now use command line arguments to specify program running conditions instead of editing source code
-..* the flag, -t, indicates TESTING MODE (no posting to twitter or history updating)
-..* the flag, -f, indicates FOLLOW MODE (follows users in between posts)
-..* the flag, -u, indicates UNFOLLOW MODE (unfollows users in between posts)
-..* You can use any combination of the flags in any order. It also recognizes invalid flags.
+  * You can now use command line arguments to specify program running conditions instead of editing source code
+  * the flag, -t, indicates TESTING MODE (no posting to twitter or history updating)
+  * the flag, -f, indicates FOLLOW MODE (follows users in between posts)
+  * the flag, -u, indicates UNFOLLOW MODE (unfollows users in between posts)
+  * You can use any combination of the flags in any order. It also recognizes invalid flags.
 
 *Version 1.4.0*
 ..* Now includes support for gif retrieving and posting!
