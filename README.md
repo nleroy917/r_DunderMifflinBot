@@ -48,43 +48,43 @@ Version History:
   * Added support to identify and skip video posts. 
 
 *Version: 1.3.3*
-..* Added color to some print statements to differnetiate from key processes and procedural
+  * Added color to some print statements to differnetiate from key processes and procedural
 	  methods
 
 *Version: 1.3.2*
-..* Fixed issue where bot would scipt unfollow script if the follow script was enabled
-..* Added a testing mode. If testing mode is set to True, then the bot will not post or retrieve
+  * Fixed issue where bot would scipt unfollow script if the follow script was enabled
+  * Added a testing mode. If testing mode is set to True, then the bot will not post or retrieve
 	  picutures. It will only simulate the act of doing so
 
 *Version: 1.3.1*
-..* Removed 'The Office' search tag as too many Trump supporters were following the bot,
+  * Removed 'The Office' search tag as too many Trump supporters were following the bot,
 	and the timeline/following of the bot was becoming very politically charged
 
 *Version: 1.3.0*
-..* Now includes follow mode
-..* Will follow users of tweets from a pre-defined search tag
-..* Follows a set number of accounts every 6th post
-..* Hope is to soon introduce follow criteria, to make it more strategic and only follow those within certain limits
+  * Now includes follow mode
+  * Will follow users of tweets from a pre-defined search tag
+  * Follows a set number of accounts every 6th post
+  * Hope is to soon introduce follow criteria, to make it more strategic and only follow those within certain limits
 
 *Version 1.2.0:*
-..* Introduced error handling and exception raising
-..* The hope is that the program will be able to run for much more extended perods of time
-..* Orgranized simple tasks into functions to clean up code and aid debugging in future.
+  * Introduced error handling and exception raising
+  * The hope is that the program will be able to run for much more extended perods of time
+  * Orgranized simple tasks into functions to clean up code and aid debugging in future.
 
 *Version 1.1.1:*
-..* Bug fix where imgur posts lacking a file extension would not get posted
-..* Added capability to determine the file extension of a url and add one if it doesnt
+  * Bug fix where imgur posts lacking a file extension would not get posted
+  * Added capability to determine the file extension of a url and add one if it doesnt
       exist
 
 *Version 1.1.0:*
-..* "Weak Hot" avoidance has been added. Occasionally posts will make it to the hot page with a small number of upvotes. The program will skip any and all posts that do not reach a minimum upvote requirement.
-..* The wait_time for a post was decreased from 3 hours to 2 hours.
+  * "Weak Hot" avoidance has been added. Occasionally posts will make it to the hot page with a small number of upvotes. The program will skip any and all posts that do not reach a minimum upvote requirement.
+  * The wait_time for a post was decreased from 3 hours to 2 hours.
 
 *Version 1.0.1:*
-..* Updated the picture file naming convention to reflect the original url name to help identify pictures that have been posted before.
-..* Added print statements to indicate authentication and authentication success.
+  * Updated the picture file naming convention to reflect the original url name to help identify pictures that have been posted before.
+  * Added print statements to indicate authentication and authentication success.
 
 *Version 1.0.0:*
-..* Initial creation and functionality proof
-..* Includes repost avoidance
-..* Includes hot-queue refreshing every 12 hours
+  * Initial creation and functionality proof
+  * Includes repost avoidance
+  * Includes hot-queue refreshing every 12 hours
