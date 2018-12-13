@@ -1,4 +1,4 @@
-# r_DunderMifflin_Bot
+r_DunderMifflin_Bot
 ======
 *Author: Nathan LeRoy*
 *Creation Date: June 21st, 2018*
@@ -27,12 +27,12 @@ About every 12 hours, the bot will search twitter for the latest tweets that con
 The follow script is highly rate limited so as not to exceed the twitter API regulations and receive a ban/suspension.
 
 
-## Version History:
-======
+Version History:
+------
 *Version 1.4.2*
-..* Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
-..* After each post, the bot will calculate how much time is needed in between posts.
-..* The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
+* Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
+* After each post, the bot will calculate how much time is needed in between posts.
+* The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
 
 *Version 1.4.1*
 ..* You can now use command line arguments to specify program running conditions instead of editing source code
