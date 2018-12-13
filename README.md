@@ -30,9 +30,9 @@ The follow script is highly rate limited so as not to exceed the twitter API reg
 Version History:
 ------
 *Version 1.4.2*
-  * Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
-  * After each post, the bot will calculate how much time is needed in between posts.
-  * The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
+  - Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
+  - After each post, the bot will calculate how much time is needed in between posts.
+  - The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
 
 *Version 1.4.1*
   * You can now use command line arguments to specify program running conditions instead of editing source code
@@ -42,10 +42,10 @@ Version History:
   * You can use any combination of the flags in any order. It also recognizes invalid flags.
 
 *Version 1.4.0*
-..* Now includes support for gif retrieving and posting!
-..* Added file naming conventions and conditions to catch gifs and appropriately retreive them
-..* Also updated some file naming conventions (see get file name)
-..* Added support to identify and skip video posts. 
+  * Now includes support for gif retrieving and posting!
+  * Added file naming conventions and conditions to catch gifs and appropriately retreive them
+  * Also updated some file naming conventions (see get file name)
+  * Added support to identify and skip video posts. 
 
 *Version: 1.3.3*
 ..* Added color to some print statements to differnetiate from key processes and procedural
