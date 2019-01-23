@@ -29,7 +29,7 @@ The follow script is highly rate limited so as not to exceed the twitter API reg
 
 Version History:
 ------
-*Version 1.4.3* 
+*Version 1.4.3*
     * Introduce a max_following variable in the follow script to prevent the bot from following TOO many people. 
     * This is for my own sanity so that I do not have to ssh in myself and kill the script, only to re-run with an unfollow mode.
     
