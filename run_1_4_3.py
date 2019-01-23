@@ -436,7 +436,7 @@ while (True): # use ctrl-c KeyboardInterrupt to cancel program execution
 					follow_flag = 0 # reset flag
 					print(Fore.BLUE + "\n[FOLLOW MODE - BEGIN]" + Fore.WHITE)
 					tags = ['Schrute','Dunder Mifflin']
-					if testing_mode == True:
+					if testing_mode == False:
 						run_follow(tags,100,15,max_following) #run follow script to follow 100 people with a 15 second pause in between
 
 
