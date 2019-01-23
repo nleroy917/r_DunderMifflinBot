@@ -2,7 +2,7 @@ r_DunderMifflin_Bot
 ======
 *Author: Nathan LeRoy*  
 *Creation Date: June 21st, 2018*  
-*Latest Version: 1.4.2*  
+*Latest Version: 1.4.3*  
 
 
 ### OVERVIEW:
@@ -29,10 +29,14 @@ The follow script is highly rate limited so as not to exceed the twitter API reg
 
 Version History:
 ------
+*Version 1.4.3* 
+    * Introduce a max_following variable in the follow script to prevent the bot from following TOO many people. 
+    * This is for my own sanity so that I do not have to ssh in myself and kill the script, only to re-run with an unfollow mode.
+    
 *Version 1.4.2*
-  - Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
-  - After each post, the bot will calculate how much time is needed in between posts.
-  - The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
+  * Wait time is now calculated using three parameters... Hot post buzz, time of day, and the post frequency on the subreddit
+  * After each post, the bot will calculate how much time is needed in between posts.
+  * The math behind all of this can be adjusted easily. Also the algorithm that calculates this is encapsulated in a spearate python file.
 
 *Version 1.4.1*
   * You can now use command line arguments to specify program running conditions instead of editing source code
