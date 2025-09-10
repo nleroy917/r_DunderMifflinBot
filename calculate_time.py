@@ -209,6 +209,7 @@ init()
 #authenticate reddit app
 print(Fore.GREEN + "\nAuthenticating Reddit API for wait calculations...")
 reddit = praw.Reddit(client_id="VO3nsWUK9UBV8g",
-                     client_secret = "nyoXYhUFnqo7Axo2dkmnVxywga0",
-                     user_agent = "pawsibility")
+                     client_secret = "...",
+                     user_agent = "...")
 print(Fore.GREEN + "Authentication Success!\n")
+
